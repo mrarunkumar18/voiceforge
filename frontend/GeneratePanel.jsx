@@ -1,7 +1,7 @@
 import React, { useState, useRef, useCallback } from 'react';
 import { Upload, Mic, MicOff, RotateCcw, Check, AlertCircle, Square } from 'lucide-react';
 import { useRecorder } from '../hooks/useRecorder';
-import WaveformBars from './waveformBars';
+import WaveformBars from './WaveformBars';
 import AudioPlayer from './AudioPlayer';
 import { uploadVoice } from '../hooks/useApi';
 
